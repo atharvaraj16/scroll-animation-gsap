@@ -1,0 +1,1 @@
+Click Here to View live Preview of this animation [CLICK HERE](https://atharvaraj16.github.io/scroll-animation-gsap/).
