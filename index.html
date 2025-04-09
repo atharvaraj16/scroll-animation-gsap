@@ -11,7 +11,7 @@
     <div class="w-full">
         <div class="parent relative top-0 left-0 w-full h-[700vh]">
             <div class="w-full sticky top-0 left-0 h-screen">
-                <canvas class="w-full h-screen" id="frame"></canvas>
+                <canvas class="w-full h-auto" id="frame"></canvas>
             </div>
         </div>
     </div>
@@ -29,7 +29,7 @@
 
         const frames = {
             currentIndex: 0,
-            maxIndex: 382
+            maxIndex: 420
         };
 
         let imagesLoaded = 0;
@@ -84,7 +84,7 @@
                     start: "top top",
                     end: "bottom bottom",
                     scrub: 2,
-                    markers: true
+                    markers: false
                 },
                 onUpdate: () => {
                     loadImage(Math.floor(frames.currentIndex));
